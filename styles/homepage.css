@@ -1,0 +1,125 @@
+/* font-family: "Roboto", sans-serif; */
+/* font-family: "Inter", sans-serif; */
+
+.header {
+  background: #69bf75;
+  background: radial-gradient(
+    circle,
+    rgba(105, 191, 117, 1) 0%,
+    rgba(1, 126, 13, 1) 100%
+  );
+  padding-top: 50px;
+  height: 1077px;
+}
+
+.header-nav-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav-list{
+    display: flex;
+    gap: 29px;
+}
+
+.header-nav-link{
+    font-family: "Roboto", sans-serif;
+    color: #C8BFBF;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.header-download-btn{
+    font-family: "Roboto", sans-serif;
+    color: #FAAB34;
+    padding: 16px 36px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.header-download-btn:hover{
+    cursor: pointer;
+}
+
+.active{
+    color: #FFFFFF;
+}
+
+.header-main-wrap{
+    display: flex;
+    padding-top: 74px;
+    align-items: center;
+    margin-top: -200px;
+}
+
+.header-price{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #FFFFFF;
+    
+}
+
+.header-title{
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 135px;
+    line-height: 108px;
+}
+
+.promo-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 66px;
+}
+
+.header-promo{
+    display: flex;
+    margin-top: 36px;
+}
+
+.promo-bage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px 28px;
+    background-color: #FAAB34;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 100px;
+    border-radius: 50%;
+}
+
+.promo-text{
+    font-size: 32px;
+}
+
+.promo-description{
+    position: relative;
+    margin-left: 18px;
+    top: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 47px;
+}
+
+.hero-btn {
+    padding: 22px 40px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    color: #FAAB34;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    position: static;
+    margin: 0;
+}

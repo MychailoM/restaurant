@@ -1,0 +1,25 @@
+.footer{
+    background-color: #F4F4F4;
+    padding: 40px 0;
+}
+
+.footer-nav-list{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #000000;
+}
+
+.footer-nav-link{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 100%;
+  color: #414141;
+}
+
+.footer-nav-link:hover{
+    color: #575757;
+}
+

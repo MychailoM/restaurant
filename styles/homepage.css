@@ -1,10 +1,4 @@
-/* font-family: "Roboto", sans-serif; */
 /* font-family: "Inter", sans-serif; */
-
-body {
-  background-color: #e3e8e4;
-}
-
 .header {
   background: radial-gradient(
     circle,
@@ -309,7 +303,7 @@ body {
 
 .our-menu {
   padding-top: 100px;
-  padding-bottom: 150px;
+  padding-bottom: 200px;
   background-color: #f4f4f4;
 }
 
@@ -336,12 +330,8 @@ body {
 .menu-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 310px 90px;
   margin-top: 360px;
-}
-
-.menu-list-item {
-  height: 720px;
 }
 
 .menu-item-shadow {

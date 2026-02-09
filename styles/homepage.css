@@ -26,6 +26,8 @@
   color: #c8bfbf;
   font-weight: 700;
   font-size: 28px;
+  position: relative;
+  z-index: 9;
 }
 
 .header-download-btn {
@@ -67,6 +69,11 @@
   color: #ffffff;
   font-size: 135px;
   line-height: 108px;
+}
+
+.header-photo{
+  position: relative;
+  z-index: 1;
 }
 
 .promo-wrap {

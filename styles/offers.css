@@ -1,0 +1,210 @@
+.offers-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0;
+  min-height: 1370px;
+}
+
+.offer-card {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+  padding-bottom: 60px;
+  padding-left: 30px;
+}
+
+.offer-card-first {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../photos/offers/offers-bg-one.png) center / cover no-repeat;
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+
+.offer-card-second {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../photos/offers/offers-bg-two.png) center / cover no-repeat;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  padding-bottom: 86px;
+}
+
+.offer-card-third {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../photos/offers/offers-bg-three.png) center / cover no-repeat;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+
+.offers-two-wrap{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0;
+  min-height: 1370px;
+}
+
+.offer-card-two-first {
+      background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../photos/offers/offers-two-bg-third.png) center / cover no-repeat;
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+}
+
+.offer-card-two-second {
+      background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    
+    url(../photos/offers/offers-two-bg-first.png) center / cover no-repeat;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.offer-card-two-third {
+      background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../photos/offers/offers-two-bg-second.png) center / cover no-repeat;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.offer-bage {
+  position: absolute;
+  top: -40px;
+  left: 40px;
+  width: 218px;
+  height: 218px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #69bf75;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 71px;
+}
+
+.offer-card-first .offer-bage {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.offer-card-second .offer-bage {
+  background-color: #faab34;
+  color: #ffffff;
+}
+
+.offer-card-third .offer-bage {
+  background-color: #017e0d;
+  color: #ffffff;
+}
+
+.offer-card-two-first .offer-bage {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.offer-card-two-second .offer-bage {
+  background-color: #faab34;
+  color: #ffffff;
+}
+
+.offer-card-two-third .offer-bage {
+  background-color: #017e0d;
+  color: #ffffff;
+}
+
+.offer-text {
+  font-size: 72px;
+  line-height: 1;
+}
+
+.offer-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 64px;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.offer-subtitle {
+  font-size: 30px;
+  margin-bottom: -24px;
+}
+
+.offer-btn {
+  padding: 8px 66px;
+  border-radius: 50px;
+  border: none;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #faab34;
+  margin-top: 44px;
+}
+
+.offer-btn:hover {
+  cursor: pointer;
+}
+
+.discount {
+  padding: 160px 0 280px 0;
+  background: radial-gradient(
+    circle,
+    #68b370 0%,
+    #069815 50%,
+    rgba(1, 126, 13, 1) 100%
+  );
+}
+
+.discount-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.discount-content-wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.discount-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 92px;
+  line-height: 100%;
+  text-align: right;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.discount-subtitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 100%;
+  color: #FFFFFF;
+  width: 740px;
+  margin-bottom: 100px;
+}
+
+.discount-link-wrap{
+  display: flex;
+  gap: 30px;
+}
